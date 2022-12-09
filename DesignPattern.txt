@@ -1,0 +1,45 @@
+“HÀM CHỈ NÊN THỰC HIỆN MỘT VIỆC. CHÚNG NÊN LÀM TỐT VIỆC ĐÓ, VÀ CHỈ LÀM DUY NHẤT VIỆC ĐÓ”
+
+Nguyên tắc đầu tiên của hàm là chúng phải nhỏ. Nguyên tắc thứ hai là chúng phải nhỏ hơn nữa.
+
+Các hàm phụ thuộc nhau. Nếu một hàm gọi một hàm khác, chúng nên được đặt gần nhau. Và nếu có thể, hàm gọi nên ở trên hàm được gọi
+
+các sự kiện (event). Các hàm dạng này có một đối số đầu vào nhưng không có đối số đầu ra.
+Toàn bộ chương trình được hiểu là để thông dịch các lời gọi hàm như một sự kiện, 
+và sử dụng các đối số để thay đổi trạng thái của hệ thống
+
+ĐỌC CODE TỪ TRÊN XUỐNG DƯỚI: NGUYÊN TẮC STEPDOWN
+
+Nguyên tắc Đơn nhiệm: Mỗi lớp chỉ nên chịu trách nhiệm về một nhiệm vụ cụ thể nào đó mà thôi.
+
+Nguyên tắc Đóng & mở: Chúng ta nên hạn chế việc chỉnh sửa bên trong một Class hoặc Module có sẵn,
+thay vào đó hãy xem xét mở rộng chúng.
+
+Số lượng đối số lý tưởng cho một hàm là không (niladic), tiếp đến là một (monadic), sau đó là hai (dyadic)
+Nên tránh trường hợp ba đối số (triadic) nếu có thể. Các hàm có nhiều hơn ba đối số (polyadic)
+
+Lập trình cấu trúc, lập trình hướng đối tượng (OOP), lập trình hướng khía cạnh (Aspect Oriented Programming – AOP),
+lập trình hướng thành phần (Component Oriented Programming – COP
+
+một phương thức f của class C chỉ nên gọi những phương thức sau:
+-C
+-Một đối tượng được tạo bởi f
+-Một đối tượng được truyền vào dưới dạng đối số của f
+-Một đối tượng chứa một biến instance của C
+
+Encapsulation – tính đóng gói: các phương thức và dữ liệu có mối quan hệ với nhau được lưu vào một lớp để thuận tiện cho việc quản lý, sử dụng.
+  Chỉ có phương thức nội tại của chính đối tượng mới có thể thay đổi trạng thái nội tại của nó.
+Abstraction – tính trừu tượng: chỉ tập trung vào những thuộc tính và phương thức cần thiết cho việc giải quyết vấn đề trong lập trình và bỏ qua các thông tin không quan trọng. 
+Inheritance – tính kế thừa: các đối tượng “con” có thể thừa hưởng các đặc tính có sẵn từ đối tượng “cha” mà không cần định nghĩa lại (tùy theo ngôn ngữ lập trình).
+Polymorphism – tính đa hình: các đối tượng không cùng một lớp, khi tiếp nhận cùng một thông điệp thì sẽ phản hồi theo những cách khác nhau
+
+Các dòng code sử dụng phương pháp cấu trúc dữ liệu giúp dễ dàng thêm các hàm mới mà không cần phải thay đổi cấu trúc của dữ liệu hiện tại.
+Mặt khác, code theo phương pháp hướng đối tượng giúp dễ dàng thêm các class mới mà không thay đổi các hàm đã viết.
+
+Code theo cấu trúc dữ liệu làm bạn khó thêm dữ liệu mới vì phải thay đổi toàn bộ hàm.
+Code theo hướng đối tượng làm bạn khó thêm hàm vì phải thay đổi tất cả các class chịu ảnh hưởng.
+
+Sử dụng việc kết hợp hơn là kế thừa
+
+
+

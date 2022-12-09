@@ -1,0 +1,16 @@
+Hiệnn Tạii Đơn : S + Ve/es 
+Hiện Tại Tiếp Diễn : S + tobe + Ving
+Hiệnn Tạii Hoàn Thành : S + have/has + V3/ed
+Hiệnn Tạii Hoàn Thành Tiếp Diễn : S + have/has+ been + Ving
+Quá khỨ đơn : S + v2/ed
+Quá khứ tiếp diễn : S + was/were + ving 
+Quá Khứ Hoàn Thành : S + had + v3/ed
+Quá Khứ Hoàn Thành Tiếp Diễn : S + had been + Ving
+Tương lai Đơn : S + will + V
+Tương lai hoàn thành: S + will + have + v3/ed
+Tương Lai Tiếpp Diễnn : S + will + be + Ving
+Tương lai Hoàn thành tiếpp diễn : S + will have been + Ving
+
+Đối với các thì ở hiện tại, động từ và trợ động từ được chia ở cột thứ nhất trong bảng động từ bất quy tắc.
+Đối với các thì ở quá khứ, động từ và trợ động từ sẽ được chia ở cột thứ hai trong bảng động từ bất quy tắc.
+Đối với những thì ở tương lai, bắt buộc phải có từ “will/shall” trong câu và động từ có hai dạng là “to be” và “V_ing”.
